@@ -1,1 +1,3 @@
 # Getir-Test-Automation
+
+Test report is available at CASE-STUDY\reports\html-report\index.html .
