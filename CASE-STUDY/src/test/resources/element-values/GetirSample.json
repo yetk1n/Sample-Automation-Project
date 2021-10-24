@@ -1,0 +1,82 @@
+[
+  {
+    "key": "MenuHamburgerIcon",
+    "androidValue": "//android.widget.ImageButton[@content-desc='Open navigation drawer']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "WaterCategory",
+    "androidValue": "//android.widget.TextView[@text='WATER']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "HomePage_CartIcon",
+    "androidValue": "//android.widget.TextView[@content-desc='Cart']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "HomePage_Products",
+    "androidValue": "com.allandroidprojects.getirsample:id/image1",
+    "androidType": "id"
+  },
+  {
+    "key": "WaterCategory_FirstProduct",
+    "androidValue": "(//android.widget.ImageView[@resource-id='com.allandroidprojects.getirsample:id/image1'])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "AddToCart",
+    "androidValue": "(//android.widget.TextView[@text='ADD TO CART'])",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Basket_ProductPrice",
+    "androidValue": "(//android.widget.TextView[@text='$1,98'])",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Basket_ProductName",
+    "androidValue": "(//android.widget.TextView[@text='Sample Item detail'])[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Basket_Remove",
+    "androidValue": "//android.widget.TextView[@text='Remove']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Menu_BabyCareCategory",
+    "androidValue": "//android.widget.CheckedTextView[@resource-id='com.allandroidprojects.getirsample:id/design_menu_item_text' and @text='Baby Care']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "BabyCareCategory_ThirdProduct",
+    "androidValue": "(//android.widget.ImageView[@resource-id='com.allandroidprojects.getirsample:id/image1'])[3]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "ProductDetails_ProductPrice",
+    "androidValue": "(//android.widget.TextView[@text='$1,98'])",
+    "androidType": "xpath"
+  },
+  {
+    "key": "Search",
+    "androidValue": "com.allandroidprojects.getirsample:id/action_search",
+    "androidType": "id"
+  },
+  {
+    "key": "Notifications",
+    "androidValue": "com.allandroidprojects.getirsample:id/action_notifications",
+    "androidType": "id"
+  },
+  {
+    "key": "BabyCareCategory",
+    "androidValue": "//android.widget.TextView[@text='BABY CARE']",
+    "androidType": "xpath"
+  },
+  {
+    "key": "HomeCareCategory",
+    "androidValue": "//android.widget.TextView[@text='HOME CARE']",
+    "androidType": "xpath"
+  }
+]
