@@ -75,23 +75,8 @@ public class DriverImpl {
 
     @AfterSpec
     public void afterScenario() throws InterruptedException {
-        Thread.sleep(3000);
-        ((AndroidDriver<MobileElement>) appiumDriver).pressKey(new KeyEvent(AndroidKey.HOME));
-        ((AndroidDriver<MobileElement>) appiumDriver).pressKey(new KeyEvent(AndroidKey.APP_SWITCH));
-        if (appiumDriver.findElements(By.id("com.huawei.android.launcher:id/clear_all_recents_image_button")).size() > 0) {
-            appiumDriver.findElement(By.id("com.huawei.android.launcher:id/clear_all_recents_image_button")).click();
-            logger.info("Closed all recent apps..!");
-            Thread.sleep(2000);
-            ((AndroidDriver<MobileElement>) appiumDriver).pressKey(new KeyEvent(AndroidKey.HOME));
-            Thread.sleep(2000);
-        } else {
-            ((AndroidDriver<MobileElement>) appiumDriver).pressKey(new KeyEvent(AndroidKey.BACK));
-            logger.info("There isn't any recent app..!");
-        }
-        if (appiumDriver != null) {
-            appiumDriver.quit();
-        }
+        takeScreenshot();
+        appiumDriver.quit();
     }
-
 
 }
